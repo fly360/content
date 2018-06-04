@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>NDC Hackathon Demo: Immersive shopping experience</title>
+    <meta name="description" content="Interactions, Shopping - A-Frame">
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <!--
+    <script src="https://rawgit.com/mayognaise/aframe-mouse-cursor-component/master/dist/aframe-mouse-cursor-component.min.js"></script>
+    <script scr="https://raw.githubusercontent.com/aframevr/aframe/master/dist/aframe-master.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    -->
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" />
+            <img id="wallTexture" src="https://cdn.glitch.com/925ff21a-7ba6-4474-92c8-0b1af09bd26c%2F23909933009_78221d2f31_k.jpg?1527916838149" />
+            <!--<img id="wallTexture" src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg" />-->
+            <img id="settings" src="https://cdn.glitch.com/925ff21a-7ba6-4474-92c8-0b1af09bd26c%2Fsettings.png?1527569215511" />
+            <img id="home" src="https://cdn.glitch.com/925ff21a-7ba6-4474-92c8-0b1af09bd26c%2Fhome.png?1527570400855" />
+            <img id="book" src="https://cdn.glitch.com/925ff21a-7ba6-4474-92c8-0b1af09bd26c%2Fplane.png?1527570652485" />
+            <img id="shop" src="https://cdn.glitch.com/925ff21a-7ba6-4474-92c8-0b1af09bd26c%2Fshopping.png?1527570886063" />
+            <audio id="blip1" src="https://raw.githubusercontent.com/aframevr/aframe/master/examples/showcase/anime-UI/audio/321103__nsstudios__blip1.wav"></audio>
+            <audio id="blip2" src="https://raw.githubusercontent.com/aframevr/aframe/master/examples/showcase/anime-UI/audio/321104__nsstudios__blip2.wav"></audio>
+        </a-assets>
+        <!--<a-text value="NDC Demo: Immersive shopping" position="-5 5 -6" color="#fff"
+                scale="3 3 3"></a-text>
+        <a-text value="Select an option by hovering over the icon." position="-2 4 -6" color="#fff"></a-text>
+
+        <a-image position="-4 1 -6" rotation="0 0 0" src="#home" scale="2 2 2"
+                 event-set__enter="_event: mouseenter; scale: 1.5 1.5 1.5"
+                 event-set__leave="_event: mouseleave; scale: 2 2 2"
+                 sound__1="on: click; src: #blip1;"
+                 sound__2="on: mouseenter; src: #blip2;">
+            <a-animation begin="click" attribute="rotation" to="0 360 0"
+                         easing="linear" dur="500">
+            </a-animation>
+        </a-image>
+
+        <a-image position="-1.25 1 -6" rotation="0 0 0" src="#book" scale="2 2 2"
+                 event-set__enter="_event: mouseenter; scale: 1.5 1.5 1.5"
+                 event-set__leave="_event: mouseleave; scale: 2 2 2"
+                 sound__1="on: click; src: #blip1;"
+                 sound__2="on: mouseenter; src: #blip2;">
+            <a-animation begin="click" attribute="rotation" to="0 360 0"
+                         easing="linear" dur="500">
+            </a-animation>
+        </a-image>
+
+        <a-image position="1.25 1 -6" rotation="0 0 0" src="#shop" scale="2 2 2"
+                 event-set__enter="_event: mouseenter; scale: 1.5 1.5 1.5"
+                 event-set__leave="_event: mouseleave; scale: 2 2 2"
+                 sound__1="on: click; src: #blip1;"
+                 sound__2="on: mouseenter; src: #blip2;">
+            <a-animation begin="click" attribute="rotation" to="0 360 0"
+                         easing="linear" dur="500">
+            </a-animation>
+        </a-image>
+
+        <a-image position="4 1 -6" rotation="0 0 0" src="#settings" scale="2 2 2"
+                 event-set__enter="_event: mouseenter; scale: 1.5 1.5 1.5"
+                 event-set__leave="_event: mouseleave; scale: 2 2 2"
+                 sound__1="on: click; src: #blip1;"
+                 sound__2="on: mouseenter; src: #blip2;">
+            <a-animation begin="click" attribute="rotation" to="0 360 0"
+                         easing="linear" dur="500">
+            </a-animation>
+        </a-image>-->
+
+        <a-sky id="bg" src="#wallTexture"></a-sky>
+        <!--<a-plane src="#groundTexture" rotation="-90 0 0"
+                 position="0 0 0"
+                 width="150" height="150"></a-plane>
+
+        <a-camera>
+          <a-cursor color="yellow"></a-cursor>
+        </a-camera>-->
+    </a-scene>
+</body>
+</html>
